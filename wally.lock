@@ -45,4 +45,4 @@ dependencies = []
 [[package]]
 name = "troy/ecs-framework"
 version = "0.1.0"
-dependencies = [["bridgenet", "ffrostflame/bridgenet@1.9.9"], ["cmdr", "evaera/cmdr@1.11.0"], ["goodsignal", "stravant/goodsignal@0.2.1"], ["janitor", "howmanysmall/janitor@1.15.2"], ["matter", "evaera/matter@0.6.2"], ["matter-hooks", "lasttalon/matter-hooks@0.1.0"], ["promise", "evaera/promise@4.0.0"], ["testez", "roblox/testez@0.4.1"]]
+dependencies = [["BridgeNet", "ffrostflame/bridgenet@1.9.9"], ["Cmdr", "evaera/cmdr@1.11.0"], ["GoodSignal", "stravant/goodsignal@0.2.1"], ["Janitor", "howmanysmall/janitor@1.15.2"], ["Matter", "evaera/matter@0.6.2"], ["Matter-Hooks", "lasttalon/matter-hooks@0.1.0"], ["Promise", "evaera/promise@4.0.0"], ["TestEz", "roblox/testez@0.4.1"]]

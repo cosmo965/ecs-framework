@@ -1,72 +1,36 @@
 {
   "name": "ecs-framework",
-  "tree": {
-    "$className": "DataModel",
+    "tree": {
+      "$className": "DataModel",
 
-    "ReplicatedStorage": {
-      "Shared": {
-        "$path": "src/shared"
-      }
-    },
-
-    "ServerScriptService": {
-      "Server": {
-        "$path": "src/server"
-      }
-    },
-
-    "StarterPlayer": {
-      "StarterPlayerScripts": {
-        "Client": {
-          "$path": "src/client"
+      "ReplicatedStorage": {
+        "Modules": {
+          "$path": "src/ReplicatedStorage"
+        },
+        "Lib": {
+          "$path": "Packages"
         }
-      }
-    },
-
-    "Workspace": {
-      "$properties": {
-        "FilteringEnabled": true
       },
-      "Baseplate": {
-        "$className": "Part",
-        "$properties": {
-          "Anchored": true,
-          "Color": [
-            0.38823,
-            0.37254,
-            0.38823
-          ],
-          "Locked": true,
-          "Position": [
-            0,
-            -10,
-            0
-          ],
-          "Size": [
-            512,
-            20,
-            512
-          ]
+
+      "ServerScriptService": {
+        "ServerInit": {
+          "$path": "src/ServerScriptService"
+        }
+      },
+
+      "ServerStorage": {
+        "Modules": {
+            "$path": "src/ServerStorage"
+        }
+      },
+
+      "StarterPlayer": {
+        "StarterPlayerScripts": {
+          "ClientInit": {
+            "$path": "src/StarterPlayerScripts"
+          }
         }
       }
-    },
-    "Lighting": {
-      "$properties": {
-        "Ambient": [
-          0,
-          0,
-          0
-        ],
-        "Brightness": 2,
-        "GlobalShadows": true,
-        "Outlines": false,
-        "Technology": "Voxel"
-      }
-    },
-    "SoundService": {
-      "$properties": {
-        "RespectFilteringEnabled": true
-      }
+
     }
   }
-}
