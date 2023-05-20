@@ -1,0 +1,15 @@
+[package]
+name = "troy/ecs-framework"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+matter = "evaera/matter@0.6.2"
+testez = "roblox/testez@0.4.1"
+matter-hooks = "lasttalon/matter-hooks@0.1.0"
+goodsignal = "stravant/goodsignal@0.2.1"
+promise = "evaera/promise@4.0.0"
+bridgenet = "ffrostflame/bridgenet@1.9.9"
+janitor = "howmanysmall/janitor@1.15.2"
+cmdr = "evaera/cmdr@1.11.0"

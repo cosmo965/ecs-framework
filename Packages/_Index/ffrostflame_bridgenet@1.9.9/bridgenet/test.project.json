@@ -1,0 +1,28 @@
+{
+	"name": "BridgeNet",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"Packages": {
+				"$path": "Packages",
+				"BridgeNet": {
+					"$path": "src"
+				}
+			}
+		},
+		"ServerScriptService": {
+			"ServerTest": {
+				"$path": "tests/server"
+			}
+		},
+		"StarterPlayer": {
+			"StarterPlayerScripts": {
+				"ClientTest": {
+					"$path": "tests/client"
+				}
+			},
+			"$className": "StarterPlayer"
+		}
+	}
+}
