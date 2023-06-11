@@ -13,6 +13,11 @@ version = "0.6.2"
 dependencies = [["TestEZ", "roblox/testez@0.4.1"]]
 
 [[package]]
+name = "evaera/plasma"
+version = "0.4.2"
+dependencies = [["TestEZ", "roblox/testez@0.4.1"]]
+
+[[package]]
 name = "evaera/promise"
 version = "4.0.0"
 dependencies = []
@@ -45,4 +50,4 @@ dependencies = []
 [[package]]
 name = "troy/ecs-framework"
 version = "0.1.0"
-dependencies = [["BridgeNet", "ffrostflame/bridgenet@1.9.9"], ["Cmdr", "evaera/cmdr@1.11.0"], ["GoodSignal", "stravant/goodsignal@0.2.1"], ["Janitor", "howmanysmall/janitor@1.15.2"], ["Matter", "evaera/matter@0.6.2"], ["Matter-Hooks", "lasttalon/matter-hooks@0.1.0"], ["Promise", "evaera/promise@4.0.0"], ["TestEz", "roblox/testez@0.4.1"]]
+dependencies = [["BridgeNet", "ffrostflame/bridgenet@1.9.9"], ["Cmdr", "evaera/cmdr@1.11.0"], ["GoodSignal", "stravant/goodsignal@0.2.1"], ["Janitor", "howmanysmall/janitor@1.15.2"], ["Matter", "evaera/matter@0.6.2"], ["Matter-Hooks", "lasttalon/matter-hooks@0.1.0"], ["Plasma", "evaera/plasma@0.4.2"], ["Promise", "evaera/promise@4.0.0"], ["TestEz", "roblox/testez@0.4.1"]]

@@ -4,18 +4,14 @@
       "$className": "DataModel",
 
       "ReplicatedStorage": {
-        "Modules": {
-          "$path": "src/ReplicatedStorage"
-        },
-        "Lib": {
-          "$path": "Packages"
+        "$path": "src/ReplicatedStorage",
+        "lib": {
+          "$path": "lib"
         }
       },
 
       "ServerScriptService": {
-        "ServerInit": {
-          "$path": "src/ServerScriptService"
-        }
+        "$path": "src/ServerScriptService"
       },
 
       "ServerStorage": {
@@ -26,9 +22,7 @@
 
       "StarterPlayer": {
         "StarterPlayerScripts": {
-          "ClientInit": {
-            "$path": "src/StarterPlayerScripts"
-          }
+          "$path": "src/StarterPlayerScripts"
         }
       }
 
